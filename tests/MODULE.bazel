@@ -72,7 +72,8 @@ llvm.toolchain(
         "@score_cpp_policies//sanitizers/features:ubsan_clang",
         "@score_cpp_policies//sanitizers/features:lsan",
         "@score_cpp_policies//sanitizers/features:tsan",
+        "@score_cpp_policies//sanitizers/features:tysan",
     ],
-    llvm_version = "19.1.7",
+    llvm_version = "21.1.8",
 )
 use_repo(llvm, "llvm_toolchain")
